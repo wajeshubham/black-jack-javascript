@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black jack</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1 style="font-weight: bolder;">BLACK JACK</h1>
+    <h2><span id="black-jack-result">Let's play!</span></h2>
+
+    <div class="header">
+        <h2 style="color: white">You: <span id="your-blackjack-result">0</span></h2>
+        <h2 style="color: white">Dealer: <span id="bot-blackjack-result">0</span></h2>
+    </div>
+    <div class="flex-box-row-1">
+        <div class="your-box">
+
+        </div>
+        <div class="bot-box">
+        </div>
+    </div>
+    <div class="flex-box-row-2">
+        <div class="container2">
+            <div>
+                <button type="button" class="btn btn-lg btn-warning" style="background-color: darkorange; color:white;"
+                        id="hit-btn">Hit
+                </button>
+                <button type="button" class="btn btn-lg btn-primary" id="stand-btn">Stand</button>
+                <button type="button" class="btn btn-lg btn-danger" id="deal-btn">Deal</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex-box-row-3">
+        <table class="container2">
+            <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <th><span id="wins">0</span></th>
+                <th><span id="losses">0</span></th>
+                <th><span id="draws">0</span></th>
+            </tr>
+        </table>
+    </div>
+    <h3>Player with score closest to 21 will win.</h3>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script rel="script" src="static/js/black-jack-main.js"></script>
+</body>
+</html>
