@@ -67,6 +67,9 @@ function showCards(player) {
 
 //function to increase the score
 function updateScore(img, player) {
+
+// Note: Port number of your local host may be different 
+
     if (img.src === "http://localhost:63342/blackjack%20using%20js/static/images/2.png") {
         player["score"] += 2;
     } else if (img.src === "http://localhost:63342/blackjack%20using%20js/static/images/3.png") {
