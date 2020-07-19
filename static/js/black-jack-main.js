@@ -1,4 +1,4 @@
-const server = "http://127.0.0.1:5500";
+const server = "https://black-jack-js.netlify.app";
 
 let blackJackGame = {
   you: { score: 0, div: ".your-box", span: "#your-blackjack-result" },
